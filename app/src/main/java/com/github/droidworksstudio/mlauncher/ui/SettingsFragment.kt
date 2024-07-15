@@ -182,18 +182,22 @@ class SettingsFragment : Fragment() {
                     )
                 },
             ) {
+                /* Remove ability to enable hidden apps
                 SettingsTextButton(
                     stringResource(R.string.hidden_apps),
                     fontSize = iconFs
                 ) {
                     showHiddenApps()
                 }
+                */
+                /* Remove ability to switch to another Launcher
                 SettingsTextButton(
                     stringResource(changeLauncherText),
                     fontSize = iconFs
                 ) {
                     resetDefaultLauncher(requireContext())
                 }
+                */
                 SettingsTextButton(
                     stringResource(R.string.reorder_apps),
                     fontSize = iconFs
