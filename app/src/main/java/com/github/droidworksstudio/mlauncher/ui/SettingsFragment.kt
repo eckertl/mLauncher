@@ -791,8 +791,8 @@ class SettingsFragment : Fragment() {
                                 storeFile(requireActivity())
                             },
                             thirdButtonAction = {
-                                prefs.clear()
-                                requireActivity().recreate()
+                                // prefs.clear()
+                                // requireActivity().recreate()
                             },
                         )
                     }
