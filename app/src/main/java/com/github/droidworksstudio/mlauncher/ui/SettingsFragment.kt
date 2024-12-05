@@ -182,7 +182,7 @@ class SettingsFragment : Fragment() {
                     )
                 },
             ) {
-                SettingsTextButton(
+                /*SettingsTextButton(
                     stringResource(R.string.hidden_apps),
                     fontSize = iconFs
                 ) {
@@ -193,7 +193,7 @@ class SettingsFragment : Fragment() {
                     fontSize = iconFs
                 ) {
                     resetDefaultLauncher(requireContext())
-                }
+                }*/
                 SettingsTextButton(
                     stringResource(R.string.reorder_apps),
                     fontSize = iconFs
