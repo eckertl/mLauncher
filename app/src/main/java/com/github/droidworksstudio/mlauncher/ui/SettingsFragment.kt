@@ -755,14 +755,14 @@ class SettingsFragment : Fragment() {
                             onSelect = { f -> setTextSize(f) }
                         )
                     },
-                    { _, onChange ->
+                    /*{ _, onChange ->
                         SettingsToggle(
                             title = stringResource(R.string.display_hidden_apps),
                             fontSize = iconFs,
                             onChange = onChange,
                             state = remember { mutableStateOf(prefs.hiddenAppsDisplayed) }
                         ) { toggleHiddenAppsDisplayed() }
-                    },
+                    },*/
                     { _, onChange ->
                         SettingsToggle(
                             title = stringResource(R.string.lock_settings),
