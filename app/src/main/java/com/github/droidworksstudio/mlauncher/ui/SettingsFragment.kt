@@ -1061,7 +1061,7 @@ class SettingsFragment : Fragment() {
 
         when (action) {
             Action.OpenApp -> {
-                viewModel.getAppList(true)
+                viewModel.getAppList(false)
                 findNavController().navigate(
                     R.id.action_settingsFragment_to_appListFragment,
                     bundleOf("flag" to flag.toString())
